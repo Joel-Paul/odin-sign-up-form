@@ -41,4 +41,11 @@ body {
 
 .middle {
     background-color: white;
+    padding-top: 1px;
+    padding-bottom: 32px;
+    box-shadow: gray 0px 4px;
+}
+
+.bottom {
+    margin-top: 32px;
 }
