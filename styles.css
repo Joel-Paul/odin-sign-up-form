@@ -25,3 +25,20 @@ body {
 .title img {
     height: 88px;
 }
+
+.right {
+    background-color: lightgray;
+}
+
+.right .top h2:first-of-type {
+    margin-top: 128px;
+}
+
+.top, .middle, .bottom {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.middle {
+    background-color: white;
+}
