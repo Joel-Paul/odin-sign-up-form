@@ -39,6 +39,10 @@ body {
     padding-right: 64px;
 }
 
+.top {
+    padding-bottom: 32px;
+}
+
 .middle {
     background-color: white;
     padding-top: 1px;
@@ -48,4 +52,14 @@ body {
 
 .bottom {
     margin-top: 32px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
 }
