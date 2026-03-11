@@ -108,3 +108,8 @@ button {
 label {
     font-family: 'Copperplate';
 }
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
