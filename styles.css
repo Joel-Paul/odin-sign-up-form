@@ -62,4 +62,26 @@ body {
 .field {
     display: flex;
     flex-direction: column;
+    padding-right: 64px;
+    padding-bottom: 16px;
+}
+
+input {
+    width: 256px;
+}
+
+button {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color: #596D48;
+    box-shadow: rgb(198, 198, 198) 4px 4px 4px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    color: white;
 }
