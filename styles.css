@@ -25,6 +25,17 @@ body {
     height: 100vh;
 }
 
+.left p {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.left a {
+    color: white;
+}
+
 .title {
     display: flex;
     flex-direction: row;
@@ -131,7 +142,7 @@ label {
     font-family: 'Copperplate';
 }
 
-a {
+.right a {
     color: #596D48;
     text-decoration: none;
 }
