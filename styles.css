@@ -87,6 +87,21 @@ body {
 input {
     width: 256px;
     font-size: 18px;
+    padding: 8px;
+    border: 1px solid;
+    outline-width: 1px;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+input:focus {
+    border-color: #E5E7EB;
+    box-shadow: #c1c3c5 2px 2px 4px;
+    border: 1px solid;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 button {
