@@ -12,10 +12,17 @@ body {
     flex-direction: row;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 .left {
     position: relative;
+    overflow: hidden;
+}
+
+.left > img {
+    width: auto;
+    height: 100vh;
 }
 
 .title {
